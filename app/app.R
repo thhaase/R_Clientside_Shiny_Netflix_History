@@ -21,7 +21,7 @@ ui <- dashboardPage(
         "1. Besuche", HTML("<a href='https://www.netflix.com/YourAccount'>Netflix Account</a>") , br(),br(),
         "2. Klicke dort auf [Dein Profil] und kontrolliere, dass die Sprache auf Deutsch eingestellt ist", br(),br(),
         "3. Klicke anschließend [Titelverlauf], scrolle herunter und klicke unten rechts auf [Alle herunterladen]", br(),br(),
-        "4. Kehre auf diese Website zurück und lade oben die heruntergeladene [.csv] Datei hoch",br(),br(),
+        "4. Kehre auf diese Website zurück und lade unten die heruntergeladene [.csv] Datei hoch",br(),br(),
         fileInput('file1', 'Lade hier die Netflixhistory hoch',
                   accept = c('text/csv', 'text/comma-separated-values', 'text/plain', '.csv'))
       ),
